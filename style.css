@@ -7,6 +7,7 @@
 body {
   width: 100%;
   color: #343c3e;
+  font-family: "YakuHanJPs", "GT America Medium", "Midashi Go MB31", sans-serif, YuGothic, "Yu Gothic", "游ゴシック体", "游ゴシック", -apple-system, BlinkMacSystemFont, system-ui,
 }
 
 a {
@@ -115,6 +116,8 @@ header {
 /* ---------------------- スキル */
 i {
   color: #abd528;
+  font-size: 60px;
+  padding-left: 10px;
 }
 
 .skill {
@@ -122,21 +125,35 @@ i {
   margin: 70px auto;
 }
 
-.slill-title::after {
+/* .slill-title::after {
   border: 1px solid #abd528;
-}
+} */
 
 .slill-title h1 {
   font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .skill-ul {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   display: grid;
-  column-gap: 10px;
-  row-gap: 10px;
+  column-gap: 20px;
+  row-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.skill-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #abd528;
+  border-radius: 40px;
+  padding: 30px;
+}
+
+.skill-list span {
+  font-size: 20px;
 }
 
 
