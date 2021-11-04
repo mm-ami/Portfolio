@@ -83,9 +83,10 @@ header {
 }
 
 .portfolio-link:hover {
-  background-color: #000;
+  background-color: #343c3e;
   color: #abd528;
-  border: 1px solid #000;
+  border: 1px solid #343c3e;
+  transition: all 0.4s ease;
 }
 
 .portfolio-link h3 {
