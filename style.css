@@ -121,7 +121,8 @@ header h1 {
 
 /* ---------------------- スキル ------------------- */
 i {
-  color: #a5a5a5;
+  /* color: #a5a5a5; */
+  color: #505050;
   font-size: 60px;
 }
 
@@ -130,9 +131,9 @@ i {
   margin: 70px auto;
 }
 
-.slill-title h1,
-.introduction-title h1 {
-  font-size: 40px;
+.slill-title h1 {
+  color: #abd528;
+  font-size: 30px;
   font-weight: lighter;
   margin-bottom: 20px;
 }
@@ -161,12 +162,20 @@ i {
 
 .skill-list span {
   font-size: 20px;
+  color: #505050;
 }
 
 /* --------------------------- 自己紹介 */
 .introduction {
   width: 90%;
   margin: 0 auto 70px;
+}
+
+.introduction-title h1 {
+  color: #abd528;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 30px;
 }
 
 .introduction-text {
@@ -181,6 +190,7 @@ i {
 
 .introduction-name h1 {
   font-size: 30px;
+  font-weight: lighter;
   margin-bottom: 7px;
 }
 
