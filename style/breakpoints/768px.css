@@ -42,4 +42,8 @@
   .text p {
     font-size: 15px;
   }
+
+  footer i {
+    font-size: 35px;
+  }
 }

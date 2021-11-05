@@ -190,5 +190,16 @@ header h1 {
   margin-bottom: 3px;
 }
 
+footer {
+  text-align: center;
+}
+
+footer i {
+  cursor: pointer;
+  font-size: 50px;
+  color: #F1F1F1;
+  margin-bottom: 20px;
+}
+
 
 
