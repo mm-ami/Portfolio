@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+  header h1 {
+    color: red;
+  }
+
+  .portfolio-link h4 span {
+    display: block;
+    font-size: 10px;
+    color: #000;
+    font-weight: lighter;
+  }
+
+  .portfolio-link h4 span {
+    display: block;
+    font-size: 10px;
+    color: #000;
+    font-weight: lighter;
+  }
+
+  .slill-title h1,
+  .introduction-title h1 {
+    font-size: 23px;
+  }
+
+  i {
+    font-size: 40px;
+  }
+
+  .skill-list span {
+    font-size: 15px;
+  }
+
+  .introduction-text {
+    width: 70%;
+    margin: 30px auto 0;
+  }
+
+  .introduction-name h1 {
+    font-size: 27px;
+  }
+
+  .text p {
+    font-size: 15px;
+  }
+}
