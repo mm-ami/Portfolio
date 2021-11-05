@@ -1,0 +1,55 @@
+@media screen and (max-width: 580px) {
+  header h1 {
+    color: blue;
+  }
+
+  header {
+    height: 150px;
+  }
+
+  .work-ul {
+    width: 80%;
+  }
+
+
+  .portfolio-link h4 {
+    margin-top: 10px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+  }
+
+  .slill-title h1,
+  .introduction-title h1 {
+    font-size: 18px;
+  }
+
+  .skill i {
+    font-size: 33px;
+  }
+
+  .skill-list span {
+    font-size: 10px;
+  }
+
+  .skill-ul {
+    width: 95%;
+  }
+
+  .introduction-text {
+    width: 90%;
+    margin: 20px auto 0;
+  }
+
+  .introduction-name h1 {
+    font-size: 25px;
+  }
+
+  .introduction-name p {
+    font-size: 15px;
+  }
+
+  .text p {
+    font-size: 13px;
+  }
+}
