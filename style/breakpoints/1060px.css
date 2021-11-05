@@ -33,4 +33,8 @@
     font-weight: lighter;
     padding-right: 10px;
   }
+
+  .introduction-text {
+    width: 63%;
+  }
 }
