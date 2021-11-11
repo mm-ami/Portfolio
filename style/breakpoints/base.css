@@ -186,6 +186,10 @@ header h1 {
   margin-bottom: 7px;
 }
 
+.text p {
+  line-height: 30px;
+}
+
 .introduction-name p {
   margin-bottom: 3px;
 }
