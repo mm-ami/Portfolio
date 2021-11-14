@@ -116,30 +116,31 @@ header h1 {
   font-size: 10px;
 }
 
-/* ---------------------- スキル ------------------- */
-.skill i {
-  color: #505050;
-  font-size: 60px;
-}
-
+/* ---------------------- スキル ---------------------- */
 .skill {
   width: 90%;
   margin: 70px auto;
 }
 
-.slill-title h1 {
+.skill i {
+  color: #505050;
+  font-size: 60px;
+}
+
+.slill-title h1,
+.introduction-title h1 {
   color: #abd528;
   font-size: 30px;
   font-weight: lighter;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .skill-ul {
   width: 80%;
   margin: 40px auto 0;
-  display: grid;
+  display: flex;
   column-gap: 10px;
-  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
 }
 
 .skill-list {
@@ -157,17 +158,10 @@ header h1 {
   color: #505050;
 }
 
-/* --------------------------- 自己紹介 */
+/* ---------------------- 自己紹介 ---------------------- */
 .introduction {
   width: 90%;
   margin: 0 auto 70px;
-}
-
-.introduction-title h1 {
-  color: #abd528;
-  font-size: 30px;
-  font-weight: lighter;
-  margin-bottom: 30px;
 }
 
 .introduction-text {
@@ -186,13 +180,15 @@ header h1 {
   margin-bottom: 7px;
 }
 
+.introduction-name p {
+  margin-bottom: 3px;
+}
+
 .text p {
   line-height: 30px;
 }
 
-.introduction-name p {
-  margin-bottom: 3px;
-}
+/* ---------------------- フッター ---------------------- */
 
 footer {
   text-align: center;
@@ -204,6 +200,3 @@ footer i {
   color: #F1F1F1;
   margin-bottom: 20px;
 }
-
-
-
