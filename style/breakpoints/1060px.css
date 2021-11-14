@@ -1,18 +1,10 @@
 @media screen and (max-width: 1060px) {
-  header h1 {
-    color: rebeccapurple;
-  }
-
   .work-container {
-    width: 100%;
-    background-color: #F1F1F1;
     padding: 40px 0;
   }
 
   .work-ul {
     width: 60%;
-    margin: 0 auto;
-    display: flex;
     flex-direction: column;
   }
 
@@ -21,20 +13,19 @@
   }
 
   .portfolio-link h4 {
-    margin-top: 10px;
     display: flex;
     align-items: baseline;
   }
 
   .portfolio-link h4 span {
-    display: block;
-    font-size: 12px;
-    color: #000;
-    font-weight: lighter;
     padding-right: 10px;
   }
 
   .introduction-text {
-    width: 63%;
+    width: 80%;
+  }
+
+  .text p {
+    line-height: 30px;
   }
 }
