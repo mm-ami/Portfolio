@@ -1,6 +1,3 @@
-
-# Portfolio
-
 # [Portfolio](https://mm-ami.github.io/Portfolio/)
 制作物をまとめたサイトです。
 シンプルさを重視し、見やすくコンパクトにまとめました。
