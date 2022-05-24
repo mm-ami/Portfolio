@@ -116,46 +116,12 @@ header h1 {
   font-size: 10px;
 }
 
-/* ---------------------- スキル ---------------------- */
-.skill {
-  width: 90%;
-  margin: 70px auto;
-}
-
-.skill i {
-  color: #505050;
-  font-size: 60px;
-}
-
-.slill-title h1,
-.introduction-title h1 {
+.introduction-title {
   color: #abd528;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: lighter;
-  margin-bottom: 30px;
-}
-
-.skill-ul {
-  width: 80%;
-  margin: 40px auto 0;
-  display: flex;
-  column-gap: 10px;
-  justify-content: space-evenly;
-}
-
-.skill-list {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.icon {
-  margin-bottom: 20px;
-}
-
-.skill-list span {
-  font-size: 20px;
-  color: #505050;
+  margin: 100px 0 50px 0;
+  text-align: center;
 }
 
 /* ---------------------- 自己紹介 ---------------------- */
@@ -184,8 +150,13 @@ header h1 {
   margin-bottom: 3px;
 }
 
-.text p {
-  line-height: 30px;
+.introduction-name ul p {
+  font-size: 20px;
+  margin: 10px 0 7px 0;
+}
+
+.sincerely {
+  margin-top: 40px;
 }
 
 /* ---------------------- フッター ---------------------- */

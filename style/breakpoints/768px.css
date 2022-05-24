@@ -3,29 +3,12 @@
     font-size: 10px;
   }
 
-  .slill-title h1,
-  .introduction-title h1 {
-    font-size: 23px;
-  }
-
-  .skill i {
-    font-size: 40px;
-  }
-
-  .skill-list span {
-    font-size: 15px;
-  }
-
   .introduction-text {
     margin: 30px auto 0;
   }
 
   .introduction-name h1 {
     font-size: 27px;
-  }
-
-  .text p {
-    font-size: 15px;
   }
 
   footer i {

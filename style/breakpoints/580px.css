@@ -11,23 +11,6 @@
     flex-direction: column;
   }
 
-  .slill-title h1,
-  .introduction-title h1 {
-    font-size: 18px;
-  }
-
-  .skill i {
-    font-size: 33px;
-  }
-
-  .skill-list span {
-    font-size: 10px;
-  }
-
-  .skill-ul {
-    width: 95%;
-  }
-
   .introduction-text {
     width: 90%;
     margin: 20px auto 0;
@@ -39,9 +22,5 @@
 
   .introduction-name p {
     font-size: 15px;
-  }
-
-  .text p {
-    font-size: 13px;
   }
 }
